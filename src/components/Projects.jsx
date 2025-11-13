@@ -5,13 +5,13 @@ export default function Projects() {
     {
       title: "Live Messenger",
       description: "Encrypted web messaging app with real-time chat, files, and images.",
-      skills: "Flask • MySQL • JavaScript",
+      skills: "Flask • JavaScript • MySQL",
       link: "https://github.com/alexsukhin/live-messenger",
     },
     {
       title: "DevDash",
       description: "Personal developer dashboard with typing tests, Kanban, GitHub visualizations, and Pomodoro timer.",
-      skills: "JavaScript • SQL • REST API",
+      skills: "Java • SQLite • REST API",
       link: "https://github.com/alexsukhin/devdash",
     },
   ];
