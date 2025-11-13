@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <section className="mt-12">
-      <h2 className="text-3xl font-semibold mb-4">Contact</h2>
+      <h2 className="text-3xl font-semibold mb-4">Contact Information</h2>
       <ul className="flex flex-col gap-4 mt-2">
         <li className="flex items-center gap-3">
           <img
