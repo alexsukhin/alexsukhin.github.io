@@ -14,6 +14,18 @@ export default function Projects() {
       skills: "Java • SQLite • REST API",
       link: "https://github.com/alexsukhin/devdash",
     },
+    {
+      title: "Grid Flex Agent",
+      description: "A demo showing how AI agents can coordinate grid flexibility actions in response to predicted feeder overloads.",
+      skills: "Python • JavaScript • React",
+      link: "https://github.com/alexsukhin/grid-flex-agent-demo",
+    },
+    {
+      title: "JabRef Contributor",
+      description: "Contributed a tabbed 'Cleanup Entries' interface to the JabRef open-source project.",
+      skills: "Java • Open-Source • Git",
+      link: "https://github.com/JabRef/jabref/pull/13852",
+    },
   ];
 
   return (
