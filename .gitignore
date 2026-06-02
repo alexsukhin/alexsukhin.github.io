@@ -18,6 +18,9 @@ dist/
 .DS_Store
 Thumbs.db
 
+# Local planning docs
+REDESIGN_PLAN.md
+
 # Environment variables
 .env
 .env.local
