@@ -1,8 +1,7 @@
 export default function Contact() {
   return (
     <section className="mt-12">
-      <h2 className="text-3xl font-semibold mb-4">Contact Information</h2>
-      <div className="flex items-center gap-8 mt-4">
+      <div className="flex items-center gap-8">
         <a href="mailto:alex@sukhin.net" className="hover:opacity-70 transition-opacity">
           <img
             src="/icons/email.png"

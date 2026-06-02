@@ -13,14 +13,14 @@ export default function ProjectTimeline({ items }) {
 
   return (
     <div className="relative">
-      {/* Vertical timeline line */}
-      <div className="absolute left-2 md:left-3 top-0 bottom-0 w-0.5 bg-stone-300"></div>
+      {/* Vertical timeline line  */}
+      <div className="absolute left-3 top-0 bottom-0 w-0.5 bg-stone-300"></div>
 
       <div className="space-y-8 md:space-y-12">
         {years.map((year, yearIndex) => (
           <div key={year} className="relative pl-12 md:pl-16">
             {/* Year dot */}
-            <div className="absolute left-1.5 md:left-0 top-0 w-6 h-6 md:w-7 md:h-7 bg-stone-100 border-2 border-stone-800 rounded-full flex items-center justify-center">
+            <div className="absolute left-0 top-0 w-6 h-6 md:w-7 md:h-7 bg-stone-100 border-2 border-stone-800 rounded-full flex items-center justify-center">
               <div className="w-2.5 h-2.5 md:w-3 md:h-3 bg-stone-800 rounded-full"></div>
             </div>
 
