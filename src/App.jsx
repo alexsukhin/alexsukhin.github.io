@@ -8,7 +8,7 @@ import Footer from './components/Footer.jsx';
 export default function App() {
   return (
     <Router>
-      <div className="flex flex-col justify-between min-h-screen bg-stone-100 text-gray-900 font-sans pt-8 pb-8 px-8">
+      <div className="flex flex-col justify-between min-h-screen bg-stone-100 text-gray-900 font-sans pt-6 pb-6 px-4 md:pt-8 md:pb-8 md:px-8">
         <div className="w-full max-w-3xl mx-auto">
           <Navigation />
           <Routes>
