@@ -18,7 +18,7 @@ export default function ProjectTimeline({ items }) {
           <div key={year} className="relative">
             {/* Year label with accent */}
             <div className="flex items-center gap-3 mb-2">
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-900">{year}</h3>
+              <h3 className="text-xl md:text-2xl font-bold text-gray-900">{year}</h3>
             </div>
 
             <hr className="border-gray-900 opacity-10 mb-6"/>

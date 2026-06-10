@@ -56,7 +56,7 @@ export default function ProjectsPage() {
 
   return (
     <section className="mt-12" id="projects">
-      <h2 className="text-3xl font-semibold mb-8">Projects</h2>
+      <h2 className="text-3xl font-bold mb-8">Projects</h2>
       <ProjectTimeline items={projectList} />
     </section>
   );
