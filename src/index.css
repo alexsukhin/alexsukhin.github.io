@@ -1,7 +1,86 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary-accent: #d4a574;
+  --primary-accent-hover: #c89860;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --text-tertiary: #9ca3af;
+  --bg-primary: #f5f5f4;
+  --bg-card: #ffffff;
+  --border-color: #e5e7eb;
+  --border-light: #f3f4f6;
+}
 
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #f5f5f4;
+  background-color: var(--bg-primary);
+  font-family: 'Inter', sans-serif;
+  color: var(--text-primary);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-primary);
+}
+
+h2 {
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--border-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.accent { color: var(--primary-accent); }
+.accent-text { color: var(--primary-accent); }
+
+.timeline-accent {
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary-accent);
+}
+
+section {
+  margin-top: 3rem;
+}
+
+section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 1.25rem;
+  }
 }

@@ -2,13 +2,15 @@ import { Link } from 'react-router-dom';
 
 export default function Navigation() {
   return (
-    <header className="flex flex-col gap-3 md:gap-4 mb-6 md:mb-8">
-      <p className="text-xs md:text-sm font-semibold tracking-wide text-stone-900">alexander sukhin</p>
-      <nav className="flex gap-4 md:gap-6">
-        <Link to="/" className="text-gray-600 hover:text-gray-900 transition-colors text-xs md:text-sm">
-          Home
+    <header className="flex items-center justify-between mb-10 pb-6 border-b border-gray-100">
+      <div className="text-sm font-semibold text-gray-900 tracking-tight">
+        alexander sukhin
+      </div>
+      <nav className="flex gap-6">
+        <Link to="/" className="text-sm text-gray-500 hover:text-amber-600 transition-colors font-medium">
+          About
         </Link>
-        <Link to="/projects" className="text-gray-600 hover:text-gray-900 transition-colors text-xs md:text-sm">
+        <Link to="/projects" className="text-sm text-gray-500 hover:text-amber-600 transition-colors font-medium">
           Projects
         </Link>
       </nav>
